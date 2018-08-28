@@ -1,0 +1,63 @@
+body{
+	background-color: #c1bec4;
+}
+
+label{	
+	width:100%;
+	font-size:1.3em;
+	text-align: left;
+	display:block;
+	color: black; 
+}
+legend{
+    font-family: Verdana;
+	font-size:1.5em;
+	text-align: center;
+	color:black;
+}
+
+input{
+    font-family: Verdana;
+    font-size: 1em;
+	margin-top: 1px;
+	width:100%
+
+}
+
+.centrado{
+	font-family: Verdana;
+	font-size: 2em;
+	text-align: center;
+	height: 8vh;
+	color : red;
+	background-color: rgba:#2A93E8
+
+}
+
+.button{
+    font-family: Verdana;
+    text-decoration: none;
+    padding: 2vh;
+    font-size: 1.2em;
+    background-color: #4C3B24;
+    color: #AAAAAA;
+    border-radius: 50%;
+    border: 0.3vh dotted #0A16b0;
+    border-color:white;
+    margin-top: 15px;
+}
+
+form{
+    font-family: Verdana;
+    font-size: 0.8em;
+    width: 15%;
+    border: 8px solid #CCC;
+    padding:20px;
+    margin:auto;
+    padding: auto;
+    text-align:center	
+}
+input[type="submit"]:hover {
+     background:#ED0707;
+     cursor:pointer;	
+}
