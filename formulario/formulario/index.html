@@ -1,0 +1,43 @@
+﻿<html>
+<head><title>Formulario</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link rel=stylesheet type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+
+   <h4 class="centrado"> Registro</h4>
+
+	<legend>Datos personales:</legend>
+
+	<form method="post" action="base_de_datos.php"  >
+ 	
+
+				<label for="nombre">Nombre:</label>
+
+    			<input type="text" name="Nombre" id = "nombre" placeholder = "Ingrese nombre" required/>
+
+    			<label for="apellido">Apellido:</label>
+
+    			<input type="text" name="Apellido" id = "apellido" placeholder = "Ingrese apellido"/>
+
+	 			<label for="contraseña">Contraseña:</label>
+
+    			<input type="password" name="Contraseña" id ="contraseña" placeholder="Ingrese contraseña"required/>
+
+    	    	<label for="direccion">Dirección:</label>
+
+    			<input type="text" name="Direccion" id = "direccion" placeholder = "Ingrese direccion"/>
+
+
+    			<label for="email">Email:</label>
+
+    			<input type="mail" name="Email" id = "email"placeholder = "Ingrese email" required/>
+			
+			<br>	
+    		<input type="submit" class = "button">
+  
+	</form>
+
+</body>
+</html>

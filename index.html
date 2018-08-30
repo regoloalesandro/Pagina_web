@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MiEmprendimiento</title>
+    <title>Mi Emprendimiento</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,17 +30,18 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="file:///C:/Users/User/Desktop/Mainpage(regolo-garciamata)/index.html">Home
+              <a class="nav-link" href="#">Home
                 <span class="sr-only">(current)</span>
               </a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
               <a class="nav-link" href="#">Ingresar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="file:///C:\Users\User\Desktop\Mainpage(regolo-garciamata)\formularioa\formularioa\index.html">Registrarse</a>
-            </li>
-			 <li class="nav-item">
+              </li>
+              <li class="nav-item ">
+              <a class="nav-link"id="popup" onclick="div_show()">Registrarse</a>
+              
+              </li>
+			        <li class="nav-item">
               <a class="nav-link" href="#">Quienes Somos?</a>
             </li>
           </ul>
@@ -66,32 +67,34 @@
 	</div>
 	<div class="row">
 
-        <div class="col-lg-2 centrado ">
-
-          <h1 class="my-4 ">Categorias</h1>
-          <div class="list-group centrado">
-            <a href="#" class="list-group-item">Category 1</a>
-            <a href="#" class="list-group-item">Category 2</a>
-            <a href="#" class="list-group-item">Category 3</a>
-			<a href="#" class="list-group-item">Category 4</a>
-            <a href="#" class="list-group-item">Category 5</a>
-            <a href="#" class="list-group-item">Category 6</a>
-			<a href="#" class="list-group-item">Category 7</a>
-            <a href="#" class="list-group-item">Category 8</a>
-            <a href="#" class="list-group-item">Category 9</a>
-			<a href="#" class="list-group-item">Category 10</a>
-            <a href="#" class="list-group-item">Category 11</a>
-            <a href="#" class="list-group-item">Category 12</a>
+        <div class="col-lg-3">
+          <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)">
+            <h1  class="my-4" >Categorias</h1>
+            <div id="subseccion1">
+              <p><a href="#"> Categoria1</a></p>
+              <p><a href="#"> Categoria2</a></p>
+              <p><a href="#"> Categoria3</a></p>
+              <p><a href="#"> Categoria4</a></p> 
+            </div>
+          </li>
+          <div class="col-lg-3">
+            <li id="seccion2" onmouseover="ver(2)" onmouseout="ocultar(2)">
+              <h1 class="my-4">Filtrar</h1>
+              <div id="subseccion2">
+                <a href="#" >Filtro 1</a>
+                <a href="#" >Filtro 2</a>
+                <a href="#" >Filtro 3</a>
+                <a href="#" >Filtro 4</a>
+                <a href="#" >Filtro 5</a>
+                <a href="#" >Filtro 6</a>
+              </div>
+            </li>
+           </div>
           </div>
-
-        </div>
         <!-- /.col-lg-3 -->
 
         <div class="col-lg-8 ">
 
-          <div >
-            
-          </div>
 
           <div class="row ">
 
@@ -100,7 +103,11 @@
                 <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="file:///C:/Users/User/Desktop/Mainpage(regolo-garciamata)/startbootstrap-shop-item-gh-pages/index.html">Item One</a>
+                    <div id="vinc1"><a href="#" 
+                      onmouseover="javascript: void(document.getElementById('vinc1').style.fontSize='2em')" 
+                      onmouseout="javascript: void(document.getElementById('vinc1').style.fontSize='1em')">
+                      Item One</a></div>
+                    </a>
                   </h4>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                 </div>
@@ -115,7 +122,11 @@
                 <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="file:///C:/Users/User/Desktop/Mainpage(regolo-garciamata)/startbootstrap-shop-item-gh-pages/index.html">Item Two</a>
+                    <div id="vinc2"><a href="#" 
+                      onmouseover="javascript: void(document.getElementById('vinc2').style.fontSize='2em')" 
+                      onmouseout="javascript: void(document.getElementById('vinc2').style.fontSize='1em')">
+                      Item two</a></div>
+                  </a>
                   </h4>
                 
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
@@ -131,7 +142,10 @@
                 <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="file:///C:/Users/User/Desktop/Mainpage(regolo-garciamata)/startbootstrap-shop-item-gh-pages/index.html">Item Three</a>
+                    <div id="vinc3"><a href="#" 
+                      onmouseover="javascript: void(document.getElementById('vinc3').style.fontSize='2em')" 
+                      onmouseout="javascript: void(document.getElementById('vinc3').style.fontSize='1em')">
+                      Item tree</a></div></a>
                   </h4>
                
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -147,7 +161,10 @@
                 <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="file:///C:/Users/User/Desktop/Mainpage(regolo-garciamata)/startbootstrap-shop-item-gh-pages/index.html">Item Four</a>
+                    <div id="vinc4"><a href="#" 
+                      onmouseover="javascript: void(document.getElementById('vinc4').style.fontSize='2em')" 
+                      onmouseout="javascript: void(document.getElementById('vinc4').style.fontSize='1em')">
+                      Item four</a></div></a> 
                   </h4>
                  
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -163,7 +180,10 @@
                 <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="file:///C:/Users/User/Desktop/Mainpage(regolo-garciamata)/startbootstrap-shop-item-gh-pages/index.html">Item Five</a>
+                    <div id="vinc5"><a href="#" 
+                      onmouseover="javascript: void(document.getElementById('vinc5').style.fontSize='2em')" 
+                      onmouseout="javascript: void(document.getElementById('vinc5').style.fontSize='1em')">
+                      Item five</a></div></a> 
                   </h4>
                   
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
@@ -179,7 +199,11 @@
                 <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="file:///C:/Users/User/Desktop/Mainpage(regolo-garciamata)/startbootstrap-shop-item-gh-pages/index.html">Item Six</a>
+                    <div id="vinc6"><a href="#" 
+                      onmouseover="javascript: void(document.getElementById('vinc6').style.fontSize='2em')" 
+                      onmouseout="javascript: void(document.getElementById('vinc6').style.fontSize='1em')">
+                      Item six</a></div>
+                    </a>
                   </h4>
                   
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -197,17 +221,7 @@
 
         </div>
         <!-- /.col-lg-2 -->
-		        <div class="col-lg-2 centrado">
 
-          <h1 class="my-4">Filtrar</h1>
-          <div class="list-group centrado">
-            <a href="#" class="list-group-item">Filtro 1</a>
-            <a href="#" class="list-group-item">Filtro 2</a>
-            <a href="#" class="list-group-item">Filtro 3</a>
-			<a href="#" class="list-group-item">Filtro 4</a>
-            <a href="#" class="list-group-item">Filtro 5</a>
-            <a href="#" class="list-group-item">Filtro 6</a>
-          </div>
 
       </div>
       <!-- /.row -->
@@ -220,7 +234,14 @@
 	  </div>
       <!-- /.container -->
     </footer>
-
+    <script type="text/javascript">
+      function ver(n) {
+               document.getElementById("subseccion"+n).style.display="block"
+               }
+      function ocultar(n) {
+               document.getElementById("subseccion"+n).style.display="none"
+               }
+      </script>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
