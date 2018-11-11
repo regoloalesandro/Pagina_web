@@ -2,6 +2,7 @@
 
 body {
   padding-top: 54px;
+  background-color: #aab1b7;
 }
 
 @media (min-width: 992px) {
@@ -13,4 +14,48 @@ body {
 .centrado {
 text-align: center;
 
+}
+
+.fixed-top {
+  background-color: #004346 !important;
+}
+
+.card.h-100 {
+  border: 1%;
+  border-color: #004346 !important;
+}
+
+#seccion1 {
+  margin-right: 10%;
+  padding-left: 4%;
+}
+
+#seccion2 {
+  margin-right: 10%;
+  padding-left: 4%;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #09bc8a;
+  border-color: #09bc8a;
+}
+
+.btn-primary:hover {
+  background-color: #089a71;
+  border-color: #089a71;
+}
+
+a {
+  color: #05674c
+}
+
+a:hover {
+  color: #033426;
+}
+
+.my-4 {
+  inline-size: 80%;
+  background-color: white;
+  border-radius: 3%;
 }

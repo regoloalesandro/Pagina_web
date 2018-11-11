@@ -6,6 +6,7 @@
 
 body {
   padding-top: 54px;
+  background-color: #aab1b7;
 }
 
 @media (min-width: 992px) {
@@ -21,4 +22,12 @@ body {
 }
 .right{
 	text-align : right;
+}
+.fixed-top {
+  background-color: #004346 !important;
+}
+
+.card.h-100 {
+  border: 1%;
+  border-color: #004346 !important;
 }
